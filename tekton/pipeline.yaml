@@ -37,7 +37,7 @@ spec:
       runAfter:
         - init
 
-    - name: lint
+    - name: linter
       workspaces:
         - name: source
           workspace: pipeline-workspace
